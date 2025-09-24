@@ -10,7 +10,7 @@ Le projet est prêt à être déployé sur [Render](https://render.com) ou tout 
 
 Si vous avez déjà un compte Render, vous pouvez déployer cette API directement en cliquant sur le lien ci-dessous :
 
-[Déployer l’API sur Render](https://dashboard.render.com/new/web?repo=https://github.com/votre-utilisateur/votre-repo)
+[Déployer l’API sur Render](https://dashboard.render.com/new/web?repo=https://github.com/Chantelou/Text-to-Speech-API)
 
 > Render créera automatiquement le service et vous fournira l’URL publique de votre API.
 
