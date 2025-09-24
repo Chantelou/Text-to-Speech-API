@@ -1,0 +1,25 @@
+{
+  "name": "freettsapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chantelou ngouanou",
+  "license": "ISC",
+  "description": "Api de traduction de texte en voix par l'IA basé sur gemini AI",
+  "dependencies": {
+    "@google/genai": "^1.20.0",
+    "@travisvn/edge-tts": "^1.0.2",
+    "buffer": "^6.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "edge-tts": "^1.0.1",
+    "express": "^5.1.0",
+    "mime-types": "^3.0.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.10"
+  }
+}
