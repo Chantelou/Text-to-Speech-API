@@ -2,8 +2,11 @@ services:
   - type: web
     name: text-to-speech-api
     env: node
+    region: Frankfurt
     plan: free
-    region: fra          # Francfort, Allemagne
+    branch: main
+    numInstances: 1
+    healthCheckPath: /healthz
     autoDeploy: true
     buildCommand: 'npm install'
     startCommand: 'node index.js'
