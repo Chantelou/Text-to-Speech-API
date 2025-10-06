@@ -1,5 +1,6 @@
 import mime from 'mime-types';
 import { GoogleGenAI, Modality } from "@google/genai";
+import { Ege_TTS } from './edge-tts.js';
 
 /* ---------- helpers ---------- */
 function parseAudioMime(mimeType) {
@@ -100,8 +101,10 @@ export const GeminiTTS = async (req, res) => {
         res.send(finalBuffer);
 
     } catch (err) {
-        console.error(err);
-        res.status(500).json({ error: err.message });
+        Ege_TTS(req, res)
+
+        //console.error(err);
+        //res.status(500).json({ error: err.message });
     }
 
 
