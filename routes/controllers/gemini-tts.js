@@ -58,7 +58,7 @@ export const GeminiTTS = async (req, res) => {
         const contents = [{ role: 'user', parts: [{ text }] }];
 
         const config = {
-            temperature: 1,
+            temperature: 0.2,
             responseModalities: [Modality.AUDIO],
             speechConfig: {
                 voiceConfig: {
